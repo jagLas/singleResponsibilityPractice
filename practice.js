@@ -52,7 +52,7 @@ function bakeAndSellPies(pieType, pieQuantity, profitMargin) {
   let costOfPie = pieCostCalculator(recipe);
 
   calculateRevenue(costOfPie, pieQuantity, profitMargin);
-  
+
 }
 
 function bakePie(pieType, recipe) {
@@ -85,8 +85,8 @@ function calculateRevenue(costOfPie, pieQuantity, profitMargin) {
 }
 
 /******************************* LOCAL TESTS *******************************/
-debugger
-bakeAndSellPies("applePie", 5);
+
+// bakeAndSellPies("applePie", 5);
 // bakeAndSellPies("pumpkinPie", 2);
 // bakeAndSellPies("cherryPie", 7, 1.7);
 
